@@ -1,0 +1,64 @@
+.page4 {
+    margin-top: -300px;
+    opacity: 0.5;
+    background-color: #fff;
+}
+
+.work {
+    margin-top: -200px;
+    position: absolute;
+    left: 9%;
+    opacity: 0.8;
+    text-align: left;
+
+}
+
+.employments {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 300px;
+    padding-bottom: 50px;
+    text-align: left;
+}
+
+/* ------------------------------------------------ */
+/* ------------------------ DESKTOP --------------- */
+/* ------------------------------------------------ */
+
+@media screen and (min-width: 1800px) {
+    .work {
+        margin-top: 100px;
+        position: absolute;
+        margin-left: 1000px;
+        margin-right: 200px;
+        opacity: 0.5;
+    }
+
+
+    .employments {
+        margin-left: 200px;
+        margin-right: 1050px;
+    }
+
+
+    .header {
+        font-size: 4em;
+    }
+
+}
+
+/* ------------------------------------------------ */
+/* ------------------------ TABLET ---------------- */
+/* ------------------------------------------------ */
+
+@media screen and (min-width: 900px) and (max-width: 1799px) {
+    .employments {
+        max-width: 900px;
+    }
+
+    .work {
+        margin-top: -200px;
+     
+    }
+
+}

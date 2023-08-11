@@ -1,0 +1,79 @@
+body {
+    background-color: #ffffff;
+    font-family: rubik;
+    background-image: url("bakgrund6.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .full-height {
+    min-height: 100vh;
+  }
+
+
+  /* ------------------------------------------------ */
+  /* ------------------------Text-------------------- */
+  /* ------------------------------------------------ */
+  
+  
+  
+  h2 {
+    font-size: 1em;
+    font-weight: lighter;
+    color: #000;
+  }
+  
+  h3 {
+    font-size: 2em;
+    color: #fff;
+    text-align: left;
+  }
+  
+  article {
+    font-weight: lighter;
+    color: #fff;
+    font-size: 1em;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  a:link { 
+    text-decoration: none; 
+  }
+  
+  a:visited { 
+    text-decoration: none; 
+  }
+  
+  a:hover { 
+    text-decoration: none; 
+  }
+  
+  a:active { 
+    text-decoration: none; 
+  }
+  
+  
+  .arrow {
+    font-size: 1.4em;
+  }
+  
+  .header3 {
+    font-size: 1.4em;
+  }
+  
+  .edu {
+    font-size: 0.7em;
+    font-weight: lighter;
+  }
+  
+  .work_exp {
+    font-size: 0.7em;
+    font-weight: lighter;
+  }
+
+
+ 

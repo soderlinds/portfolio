@@ -1,0 +1,58 @@
+/* styles.css */
+
+/* Overall Page Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  
+}
+
+
+/* Footer Styles */
+footer {
+    display: flex;
+    justify-content: flex-end;
+    bottom: 0;
+    
+}
+
+.footer-content {
+    color: #343b41;
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.5s ease, box-shadow 0.5s ease;
+}
+
+.footer-content:hover {
+    background-color: #bdbdbd;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+/* styles.css */
+.page-wrapper {
+    position: relative;
+  }
+  
+  .page-enter {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  
+  .page-enter-active {
+    opacity: 1;
+    transform: translateX(0);
+    transition: opacity 300ms, transform 300ms;
+  }
+  
+  .page-exit {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
+  .page-exit-active {
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: opacity 300ms, transform 300ms;
+  }
+  
